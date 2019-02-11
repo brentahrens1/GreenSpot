@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import React, { Component } from 'react'
+import { withRouter, Link } from 'react-router-dom'
 
 
 class SingUp extends Component {
@@ -30,4 +30,4 @@ class SingUp extends Component {
 
 }
 
-export default SingUp
+export default withRouter(SingUp)

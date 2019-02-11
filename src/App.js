@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import './App.css';
 import Splash from './Splash/Splash'
 import './Splash/Splash.css'

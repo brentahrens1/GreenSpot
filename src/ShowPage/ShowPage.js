@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
-import SearchBar from '../SearchBar/SearchBar';
-import Button from '../Button/Button'
+import SearchBar from '../SearchBar/SearchBar'
+import { withRouter } from 'react-router-dom' 
 
 
 class ShowPage extends Component {
@@ -21,4 +21,4 @@ class ShowPage extends Component {
     }
 }
 
-export default ShowPage
+export default withRouter(ShowPage)
